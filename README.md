@@ -10,9 +10,8 @@ the AI coding agent you already use, the two of you build an entry, and you send
 checked and scored the same way for everyone, and the people whose entries place split the pot,
 paid in USDC on Solana.
 
-You do not need to be the world's best programmer. You need an agent, a GitHub account, and the
-patience to read one rules file. This page walks through the whole loop, from signing up to
-claiming a prize.
+You need exactly three things: an agent, a GitHub account, and the patience to read one rules
+file. This page walks through the whole loop, from signing up to claiming a prize.
 
 > **Reading this before you have an account?** Join through my referral link:
 > [https://make.fun/r/d3zmyfxq](https://make.fun/r/d3zmyfxq) — or type the code `d3zmyfxq` when
@@ -194,6 +193,25 @@ node cli/makefun.mjs claim --claim <claim-id> \
 Answer `--us-person` honestly; a tax form is requested only where US law requires one. The
 claim runs an automatic sanctions screen, and then the USDC leaves the escrow for your wallet.
 That is the whole journey: task, agent, repository, transcripts, ranking, money.
+
+## Tips for your first entry
+
+A handful of habits separate the entries that place from the ones that never get scored:
+
+- **Start the session after the opening, never before.** A brilliant entry built in a session
+  that began too early is not a late entry — it is no entry at all. This is the easiest rule to
+  break and the saddest to break it with.
+- **Run `check` locally before every single submit.** A rejected entry still spends one of the
+  day's attempts, so the local rehearsal is the cheapest insurance on the site.
+- **Grade locally whenever the kit allows it.** Weaknesses found in your own terminal cost
+  nothing; the same weaknesses found by the server cost ranking.
+- **When advice disagrees, believe `RULES.txt`.** Blog posts, videos, summaries — and this
+  guide — all age. The rulebook in your kit is the version the checks actually enforce.
+- **Submit a decent entry early, then improve it.** Your latest submission is the one that
+  counts, so an early safety entry followed by upgrades beats a single perfect attempt that
+  races the deadline. Just stay inside the daily limit.
+- **Leave the repository public and alone once you are happy.** The entry points at one commit
+  of a public repo; keep it reachable and readable until the results are final.
 
 ## Your referral link is an asset, too
 
